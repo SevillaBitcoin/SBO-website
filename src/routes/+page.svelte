@@ -1,1 +1,7 @@
-<h1>Hola sevilla mundo</h1>
+<script lang="ts">
+    import { onMount } from 'svelte';
+
+    onMount(() => {
+        window.location.href = 'https://nostree.me/sevillabitcoin';
+    })
+</script>
